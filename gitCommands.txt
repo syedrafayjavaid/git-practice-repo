@@ -1,6 +1,7 @@
 Git Hub commands:
 git add ( used to add file to staging state)
-git commit -m ("used to commit file to finally commit the file on git hub )
+git commit -m ("used to commit file to finally commit the file)
+git commit -a -m (Directly commiting files with adding on staging state(skipping staging state) )
 git log (used to see all commit logs)
 git log -p -2 (will show the last 2 commits because of -2 which is changeable )
 git push (used to push file that are being committed to git hub repo)
@@ -9,5 +10,8 @@ git status (used to see the status of the files in project untracked , modified 
 git checkout (used to restore the file state that was last being committed)
 git checkout -f (resets or matches all the files from your last commit)
 git diff (compares working directory with staging area and shows changed made in files)
+git diff --staged (compares staging area with last commit)
+git rm <fileName.ext> ("Deletes file and removed from staging area")
+git rm --cached <fileName.ext> ('Deletes File from staging area')
 Notes:
 press q to quit and come back
