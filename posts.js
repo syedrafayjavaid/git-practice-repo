@@ -1,0 +1,1 @@
+"Git hub is a hosting platform used for version control and collaboration.It lets you and other work on project from anywhere"
