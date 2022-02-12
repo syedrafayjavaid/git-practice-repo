@@ -27,15 +27,6 @@ git remote set-url origin (To change the link of the Git-Hub repository )
 
 
 
-
-
-
-
-
-
-
-
-
 Notes:
 press q to quit and come back
 /<fileName> ignores the file if present in same directory in .gitignore file 
