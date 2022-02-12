@@ -20,6 +20,17 @@ git null > <file> (creats an empty file with that name)
 git branch <name> (used to creat a branch)
 git branch (To list all the branches,green colour shows current active branch)
 git checkout <branchName> (To switch to a particular branch )
+git remote (tells all the links to repository store in variables like origin)
+git remote -v (gives the compelte links of the remote repositories)
+git remote set-url origin (To change the link of the Git-Hub repository )
+
+
+
+
+
+
+
+
 
 
 
@@ -31,10 +42,11 @@ press q to quit and come back
 <fileName> ignores files even not in same directory or present in other directory in .gitignore file
 *.fileExtensionName (ex *.js will ignore all the files with .js extention in project)
 <directoryName>/ (a / is added after folder name to ignore folder in .gitignore)
+origin is the variable which stores remote repository link
 
 Branches: 
 1. Master is the my default and main Branches
 2. different branches can be created to make copy of main branch and indivisual can work on it.
 
 
-rafay 
+
