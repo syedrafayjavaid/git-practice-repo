@@ -38,4 +38,4 @@ Branches:
 2. different branches can be created to make copy of main branch and indivisual can work on it.
 
 
-newBranch 
+newBranch ...
