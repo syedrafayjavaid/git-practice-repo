@@ -17,8 +17,21 @@ git rm --cached <fileName.ext> ('Deletes File from staging area')
 git restore --staged <file>(Deletes file from staged area)
 git reset <id of commit > ('Deletes all the commmits made previosuly from given commit id)
 git null > <file> (creats an empty file with that name)
+git branch <name> (used to creat a branch)
+git branch (To list all the branches,green colour shows current active branch)
+git checkout <branchName> (To switch to a particular branch )
+
+
+
+
+
 Notes:
 press q to quit and come back
-/<fileName,directoryName> ignores the file if present in same directory in .gitignore file 
-<fileName,folderName> ignores files even not in same directory or present in other directory in .gitignore file
+/<fileName> ignores the file if present in same directory in .gitignore file 
+<fileName> ignores files even not in same directory or present in other directory in .gitignore file
 *.fileExtensionName (ex *.js will ignore all the files with .js extention in project)
+<directoryName>/ (a / is added after folder name to ignore folder in .gitignore)
+
+Branches: 
+1. Master is the my default and main Branches
+2. different branches can be created to make copy of main branch and indivisual can work on it.
