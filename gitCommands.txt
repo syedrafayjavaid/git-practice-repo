@@ -23,6 +23,7 @@ git checkout <branchName> (To switch to a particular branch )
 git remote (tells all the links to repository store in variables like origin)
 git remote -v (gives the compelte links of the remote repositories)
 git remote set-url origin (To change the link of the Git-Hub repository )
+git clone url <folderName> (clones the git repository in a folder you name)
 
 
 Notes:
