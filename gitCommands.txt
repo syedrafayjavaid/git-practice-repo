@@ -15,6 +15,7 @@ git diff --staged (compares staging area with last commit)
 git rm <fileName.ext> ("Deletes file and removed from staging area")
 git rm --cached <fileName.ext> ('Deletes File from staging area')
 git restore --staged <file>(Deletes file from staged area)
+git reset <id of commit > ('Deletes all the commmits made previosuly from given commit id)
 git null > <file> (creats an empty file with that name)
 Notes:
 press q to quit and come back
