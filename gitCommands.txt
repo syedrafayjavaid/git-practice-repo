@@ -20,7 +20,8 @@ git null > <file> (creats an empty file with that name)
 git branch <name> (used to creat a branch)
 git branch (To list all the branches,green colour shows current active branch)
 git checkout <branchName> (To switch to a particular branch )
-
+git checkout -b <branchName> (creats a new branch and switch to that new created branch)
+git merge <branchName> (use to merge the branch who's name is given to the current working branch(head branch))
 
 
 
@@ -35,3 +36,6 @@ press q to quit and come back
 Branches: 
 1. Master is the my default and main Branches
 2. different branches can be created to make copy of main branch and indivisual can work on it.
+
+
+newBranch 
